@@ -1,9 +1,8 @@
 /*====header style====*/
 header{
-   background-image:url(/img/pattern.png);
+   background-image:url(../img/pattern.png);
    background-color: rgb(69, 153, 250);
    background-size: contain;
-   
 }
 
 .logo{
@@ -39,15 +38,20 @@ header{
 /*---third-section---*/
 .table{
    text-align: left;
-   border: 1px solid red;
+   width: 100%;
 }
 .table-titles{
    background-color: rgb(69, 153, 250);
 }
 .even{
    background-color: #fff;
+   margin: 0;
+}
+.odd{
+  background-color: rgb(169, 227, 239);
 }
 .table th{
+   margin: 0;
    padding-right: 60px;
    text-wrap: nowrap;
    width:min-content;
