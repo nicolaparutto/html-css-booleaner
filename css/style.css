@@ -44,18 +44,15 @@ header{
    background-color: rgb(34, 161, 221);
    color: #fff;
 }
+.table th{
+   padding-right: 60px;
+   text-wrap: nowrap;
+}
 .even{
    background-color: #fff;
-   margin: 0;
 }
 .odd{
   background-color: rgb(169, 227, 239);
-}
-.table th{
-   margin: 0;
-   padding-right: 60px;
-   text-wrap: nowrap;
-   width:min-content;
 }
 
 /*====footer style====*/
