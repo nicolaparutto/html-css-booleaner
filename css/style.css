@@ -2,9 +2,8 @@
 header{
    background-image:url(../img/pattern.png);
    background-color: rgb(69, 153, 250);
-   background-size: contain;
+   background-size: 280px;
 }
-
 .logo{
    padding-top: 20px;
    width: 180px;
@@ -39,9 +38,11 @@ header{
 .table{
    text-align: left;
    width: 100%;
+   border-collapse: collapse;
 }
 .table-titles{
-   background-color: rgb(69, 153, 250);
+   background-color: rgb(34, 161, 221);
+   color: #fff;
 }
 .even{
    background-color: #fff;
@@ -55,4 +56,33 @@ header{
    padding-right: 60px;
    text-wrap: nowrap;
    width:min-content;
+}
+
+/*====footer style====*/
+footer h3{
+   color: #909090;
+}
+.first-image{
+   background-image: url(../img/monitor.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 280px;
+   height: 200px;
+}
+.first-image p{
+   padding: 10px;
+   font-size: 1.5rem;
+   color: #fff;
+}
+.second-image{
+   background-image: url(../img/graph.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 280px;
+   height: 200px;
+}
+.second-image p{
+   padding: 10px;
+   font-size: 1.5rem;
+   color: #fff;
 }
