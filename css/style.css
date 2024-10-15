@@ -1,15 +1,30 @@
+/* ====general==== */
+body{
+   margin: 0;
+}
+
+/*---utility---*/
+.highlighted{
+   background-color: yellow;
+}
+
 /*====header style====*/
 header{
    background-image:url(../img/pattern.png);
    background-color: rgb(69, 153, 250);
-   background-size: 280px;
+   background-size: 325px;
+   padding-top: 30px;
+   padding-left: 8px;
 }
 .logo{
-   padding-top: 20px;
-   width: 180px;
+   width: 200px;
 }
 
 /*====main style====*/
+main{
+  margin: 0 10px;
+}
+
 /*---first-section---*/
 .hero-title h1{
    font-size: 2.5rem;
@@ -18,7 +33,7 @@ header{
 }
 .hero-title p{
    font-size: 1rem;
-   color: #909090;
+   color: #808080;
    margin: 0;
 }
 .hero-title span{
@@ -30,8 +45,8 @@ header{
 }
 
 /*---second-section---*/
-.highlighted{
-   background-color: yellow;
+.list{
+   padding-left: 18px;
 }
 
 /*---third-section---*/
@@ -40,7 +55,10 @@ header{
    width: 100%;
    border-collapse: collapse;
 }
-.table-titles{
+th.text-align{
+   width: 50%;
+}
+.table thead tr{
    background-color: rgb(34, 161, 221);
    color: #fff;
 }
@@ -56,8 +74,11 @@ header{
 }
 
 /*====footer style====*/
+footer{
+   margin: 0 10px;
+}
 footer h3{
-   color: #909090;
+   color: #808080;
 }
 .first-image{
    background-image: url(../img/monitor.jpg);
